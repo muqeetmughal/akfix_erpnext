@@ -240,6 +240,8 @@ app_license = "mit"
 
 fixtures = [
     {
-        "dt": "Workflow"
+        "dt": "Workflow",
+        "dt": "Server Script",
+        "dt": "Workflow State",
     }
 ]
