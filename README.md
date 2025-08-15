@@ -1,4 +1,4 @@
-### AK
+### AKFix
 
 the custom app for akfix with custom workflows
 
@@ -31,3 +31,4 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+# akfix_erpnext
