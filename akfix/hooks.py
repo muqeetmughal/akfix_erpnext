@@ -1,5 +1,5 @@
 app_name = "akfix"
-app_title = "AK"
+app_title = "AKFix"
 app_publisher = "infintrixtech.com"
 app_description = "the custom app for akfix with custom workflows"
 app_email = "info@infintrixtech.com"
@@ -15,7 +15,7 @@ app_license = "mit"
 # 	{
 # 		"name": "akfix",
 # 		"logo": "/assets/akfix/logo.png",
-# 		"title": "AK",
+# 		"title": "AKFix",
 # 		"route": "/akfix",
 # 		"has_permission": "akfix.api.permission.has_app_permission"
 # 	}
@@ -237,3 +237,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+fixtures = [
+    {
+        "dt": "Workflow"
+    }
+]

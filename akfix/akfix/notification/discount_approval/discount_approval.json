@@ -1,0 +1,36 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.additional_discount_percentage > 10 or doc.grand_total > 3000",
+ "condition_type": "Python",
+ "creation": "2025-08-12 14:47:22.329552",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Sales Order",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>New Approval Request Alert!!!</h3>\n<p>Logged in to Desk to Approve or Reject the Request.</p>\n\n",
+ "message_type": "HTML",
+ "minutes_offset": 0,
+ "modified": "2025-08-12 19:16:23.829730",
+ "modified_by": "alihusnainmughal215@gmail.com",
+ "module": "AKFix",
+ "name": "Discount Approval",
+ "owner": "alihusnainmughal215@gmail.com",
+ "recipients": [
+  {
+   "condition": "",
+   "receiver_by_document_field": "",
+   "receiver_by_role": "Sales Master Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Muhammad Ali Husnain",
+ "sender_email": "alihusnainmughal215@gmail.com",
+ "set_property_after_alert": "",
+ "subject": "Sales order need Approval"
+}
